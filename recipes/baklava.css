@@ -1,0 +1,70 @@
+
+
+
+
+
+*{
+    color: #000;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: serif;
+    background-image:url(../recipes/pictures/baklava.jpg);
+    background-color: blanchedalmond;
+}
+
+
+
+h1{
+    font-size: 60px;
+    text-shadow: 3px 4px 3px rgb(170, 164, 164);
+    text-align: center;
+}
+
+img{
+  object-fit: cover ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 3px rgba(170, 164, 164, 0.863) ;
+
+  
+}
+
+h2{ 
+      font-size: 25px;
+      text-align: center;
+      margin: 80px 0;
+}
+ 
+
+.intro {
+margin: 80px 0;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.Ingredients, .Steps{
+    font-size: 20px;
+    text-align: center;
+    margin: 19px;
+
+}
+
+ .Steps li{
+    margin: 50px 0;
+}
+
+.Ingredients li{
+
+    margin: 27px 0;
+}
+
+
+.links li{
+
+display: inline;
+align-items: center;
+box-sizing: content-box;
+
+}

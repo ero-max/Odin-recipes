@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     color: black;
+    background-color: rgb(185, 127, 72);
 }
 div{
     color: rgb(160, 149, 149);
@@ -27,16 +28,17 @@ div{
 }
 
 
-button{
+.button{
     width: 300px;
     margin: 30px;
-    padding: 8px;
     border: 2px;
-border-radius: 5px;
- box-shadow: 5px 2px 3px;
-display: inline-block;
+    padding: 7px;
+
+     border-radius: 5px;
+     box-shadow: 5px 2px 3px;
     font-size: 16px;
     background-color: rgb(179, 175, 170);
+    text-overflow: clip;
 
 }
 
