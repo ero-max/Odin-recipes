@@ -48,7 +48,8 @@ margin: 80px 0;
     font-size: 20px;
     text-align: center;
     margin: 19px;
-
+list-style-position: inside;
+list-style-type: disc;
 }
 
  .Steps li{
@@ -57,14 +58,23 @@ margin: 80px 0;
 
 .Ingredients li{
 
-    margin: 27px 0;
+    margin: 20px 0;
 }
 
 
 .links li{
+list-style-type: none;
+border: 3px solid black;
+text-align: center;
 
-display: inline;
-align-items: center;
-box-sizing: content-box;
+padding: 5px;
+
+
+}
+
+
+
+
+.links{
 
 }
